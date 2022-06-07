@@ -52,9 +52,6 @@ services:
       MYSQL_USER: prueba
       MYSQL_PASSWORD: 123456
  ```
-      
-Sin conocimiento del porqué, nos salta el siguiente error al no encontrar el fichero: 
-
-<img width="679" alt="error" src="https://user-images.githubusercontent.com/91744554/172452898-8614e0d9-d696-4230-99a8-5004d2949c31.png">
+Una vez tenemos este archivo, arrancamos los contenedores con el comando ``docker-compose up -d``
 
 
