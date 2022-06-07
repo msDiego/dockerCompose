@@ -50,7 +50,8 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: Casino
       MYSQL_USER: prueba
-      MYSQL_PASSWORD: 123456 ```
+      MYSQL_PASSWORD: 123456
+ ```
       
 Sin conocimiento del porqué, nos salta el siguiente error al no encontrar el fichero: 
 
