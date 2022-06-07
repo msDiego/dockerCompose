@@ -12,7 +12,7 @@ Para ello, usaremos un archivo llamado docker-compose.yml. Este archivo será el
 <img width="296" alt="clone_git" src="https://user-images.githubusercontent.com/91744554/172452841-5961a98c-f9d9-454c-8a64-c118c30b34c8.png">
 
 El archivo .yml que estamos clonando es el siguiente: 
-
+```
 version: '3.3'
 services:
   db:
@@ -50,7 +50,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: Casino
       MYSQL_USER: prueba
-      MYSQL_PASSWORD: 123456
+      MYSQL_PASSWORD: 123456 ```
       
 Sin conocimiento del porqué, nos salta el siguiente error al no encontrar el fichero: 
 
